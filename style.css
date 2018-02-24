@@ -5,15 +5,24 @@ body{
 }
 
 .button{
-	background-color:darkblue;
+	background-color:#cc5454;
+	/*border-width:4px !important;
+	border-color: black;
+	border: 2px;*/
 	font-size:30px;
 	padding:1em 2em;
 	color:#fff;
 	border:0;
+	-moz-box-shadow:    1px 1px 10px 3px #895858;
+  	-webkit-box-shadow: 1px 1px 10px 3px #895858;
+  	box-shadow:         1px 1px 10px 3px #895858;
 }
 
 .button:hover{
-	background-color:lightblue;
+	background-color:#ffa5a5;
+	-moz-box-shadow:    1px 1px 10px 3px #ccc;
+  	-webkit-box-shadow: 1px 1px 10px 3px #ccc;
+  	box-shadow:         1px 1px 10px 3px #ccc;
 }
 
 .modal{
@@ -25,7 +34,7 @@ body{
 	width:100%;
 	height:100%;
 	overflow:auto;
-	background-color:rgba(93,71,139,0.6);	
+	background-color:rgba(37,88,88,0.6);	
 }
 
 .modalContent{
@@ -33,9 +42,12 @@ body{
 	margin:20% auto;
 	width:70%;
 /*	width:400px; - will be fixed size
-*/	box-shadow:0 5px 8px 0 rgba(0,0,0,0.2), 0 7px 20px 0 rgba(0,0,0,0.17);
-	animation-name:modalOpen;
+*/	/*box-shadow:0 5px 8px 0 rgba(0,0,0,0.2), 0 7px 20px 0 rgba(0,0,0,0.17);
+*/	animation-name:modalOpen;
 	animation-duration:2s;
+	-moz-box-shadow:    1px 1px 11px 6px #E59494;
+  	-webkit-box-shadow: 1px 1px 11px 6px #E59494;
+  	box-shadow:         1px 1px 11px 6px #E59494;
 }
 
 .modalHeader h2, .modalFooter h3{
@@ -54,7 +66,7 @@ body{
 }
 
 .modalFooter{
-	background-color: coral;
+	background-color: #cc5454;
 	padding:10px;
 	color:#fff;
 	text-align:center;
